@@ -1,0 +1,159 @@
+object Form3: TForm3
+  Left = 383
+  Top = 197
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Tekniker Panel'
+  ClientHeight = 407
+  ClientWidth = 1033
+  Color = clInactiveCaption
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnActivate = FormActivate
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 100
+    Top = 16
+    Width = 180
+    Height = 40
+    Caption = 'HASTA KAYIT'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -33
+    Font.Name = 'Corbel Light'
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 72
+    Width = 37
+    Height = 33
+    Caption = 'Ad:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 112
+    Width = 72
+    Height = 33
+    Caption = 'Soyad:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 152
+    Width = 157
+    Height = 33
+    Caption = 'T.C. Kimlik NO:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Top = 200
+    Width = 189
+    Height = 33
+    Caption = 'M'#252'racaat Sebebi:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Calibri'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 596
+    Top = 16
+    Width = 259
+    Height = 40
+    Caption = 'KAYITLI HASTALAR'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -33
+    Font.Name = 'Corbel Light'
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object ad: TEdit
+    Left = 208
+    Top = 80
+    Width = 153
+    Height = 21
+    TabOrder = 0
+  end
+  object soyad: TEdit
+    Left = 208
+    Top = 120
+    Width = 153
+    Height = 21
+    TabOrder = 1
+  end
+  object tcno: TEdit
+    Left = 208
+    Top = 160
+    Width = 153
+    Height = 21
+    MaxLength = 11
+    TabOrder = 2
+    OnKeyPress = tcnoKeyPress
+  end
+  object sebep: TEdit
+    Left = 208
+    Top = 208
+    Width = 153
+    Height = 21
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 136
+    Top = 248
+    Width = 137
+    Height = 41
+    Caption = 'KAYIT'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Montserrat'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Left = 480
+    Top = 56
+    Width = 497
+    Height = 329
+    Lines.Strings = (
+      'Memo1')
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object hastaDB: TTable
+    DatabaseName = 'acilkontrol'
+    TableName = 'hasta.db'
+    Left = 280
+    Top = 256
+  end
+end

@@ -1,0 +1,94 @@
+object Form1: TForm1
+  Left = 668
+  Top = 118
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'G'#304'R'#304#350
+  ClientHeight = 138
+  ClientWidth = 318
+  Color = clSkyBlue
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 16
+    Top = 24
+    Width = 117
+    Height = 29
+    Caption = 'Kullan'#305'c'#305' Ad'#305':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Sitka Display'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 80
+    Top = 64
+    Width = 47
+    Height = 29
+    Caption = #350'ifre:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Sitka Display'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object kAdi: TEdit
+    Left = 144
+    Top = 32
+    Width = 153
+    Height = 21
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnKeyPress = kAdiKeyPress
+  end
+  object sifre: TEdit
+    Left = 144
+    Top = 72
+    Width = 153
+    Height = 21
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    PasswordChar = '*'
+    TabOrder = 1
+    OnKeyPress = sifreKeyPress
+  end
+  object Button1: TButton
+    Left = 224
+    Top = 104
+    Width = 75
+    Height = 25
+    Caption = 'G'#304'R'#304#350
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Georgia'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object userData: TTable
+    DatabaseName = 'acilkontrol'
+    TableName = 'users.db'
+    Left = 192
+    Top = 104
+  end
+end
