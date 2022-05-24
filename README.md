@@ -27,3 +27,5 @@ Delphi 7 ve Paradox veritabanı kullanarak, pratik yapmak için yazdığım kodl
 / Uzman formunda yönlendirme yapılacak bölüm sayısı arttırılabilir.
 
 / BDE Administrator kullanılmasının sebebi Delphi 7 ile gelen `Database Desktop` güncel işletim sistemlerinde çalışmamaktadır. Bu yüzden BDE Administrator ile veritabanı oluşturulduktan sonra `xDBD32` ile tablolar oluşturulmuştur.
+
+/ Eğer program "database" hatası verirse, programı çalıştırmadan önce her seferinde `BDE Administrator`ı yönetici olarak çalıştırmak ve arka planda çalışır halde tutmak gerekir.
