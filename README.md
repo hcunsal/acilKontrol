@@ -1,5 +1,8 @@
 # Acil Kontrol Programı
 Delphi 7 ve Paradox veritabanı kullanarak, pratik yapmak için yazdığım kodları bir araya getirdiğim projedir. Acil servislerde kullanılma mantığı ile basit işlemler üzerine kurulmuştur. Acil Tıp Teknikeri ve	Acil Tıp Uzmanı olmak üzere iki farklı kullanıcı tipi vardır. Tekniker hasta kayıt ile yetkilidir. Uzman ise yönlendirme işlemlerini yapar.
+
+https://user-images.githubusercontent.com/76227969/174126728-27d33e27-0b9f-451d-9aff-394a54126635.mp4
+
 - - - - - - - - - - - - - - - 
 ## Kullanım
 / Projenin sağlıklı bir şekilde çalışması için Delphi 7 kullanmanızı öneririm.
@@ -29,3 +32,5 @@ Delphi 7 ve Paradox veritabanı kullanarak, pratik yapmak için yazdığım kodl
 / BDE Administrator kullanılmasının sebebi Delphi 7 ile gelen `Database Desktop` güncel işletim sistemlerinde çalışmamaktadır. Bu yüzden BDE Administrator ile veritabanı oluşturulduktan sonra `xDBD32` ile tablolar oluşturulmuştur.
 
 / Eğer program "database" hatası verirse, programı çalıştırmadan önce her seferinde `BDE Administrator`ı yönetici olarak çalıştırmak ve arka planda çalışır halde tutmak gerekir.
+
+/ Örnek için yapılan kayıtlarda kullanılan isim vb. bilgiler tamamen rastgele belirlenmiştir.
